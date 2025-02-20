@@ -1,0 +1,43 @@
+# Arquivos e diretórios gerados pelo Maven
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Diretório de build do Gradle (caso seja utilizado)
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Arquivos de logs
+*.log
+
+# Arquivos e pastas específicas do macOS
+.DS_Store
+
+# Arquivos do IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Arquivos do Eclipse/STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+# Arquivos do NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Arquivos do VS Code
+.vscode/
+
+# Evitar adicionar novamente o diretório do projeto no repositório
+diabetes-exam-management/
